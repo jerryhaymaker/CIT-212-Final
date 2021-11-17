@@ -12,6 +12,7 @@ nav{
     background-color: rgba(18,18,18,0.91);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     top: 0;
     left: 0;
 
@@ -104,15 +105,19 @@ h1{
     color: white;
     font-family: sans-serif;
 }
+
+h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 80px;
+
+}
 p{
     color: white;
     font-family: sans-serif;
+    font-size: 16px;
 }
-p2{
-    color: white;
-    font-family: sans-serif;
-    font-size: 30px;
-}
+
 
 .topContent{
     align-content: center;
@@ -138,24 +143,37 @@ p2{
 }
 
 .menuIcon{
-    height: 100%;
-    width: 60px;
+    padding-right: 6px;
+    height: 40px;
+    width: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    /*justify-content: center;*/
     align-items: center;
     cursor: pointer;
     margin-right: 6px;
 }
 
-@media screen and (max-width: 800px){
-    .logo{
-        display: none;
-    }
-    .companyName{
+@media screen and (max-width: 800px) {
+    .logo {
         display: none;
     }
 
+    .companyName {
+        display: none;
+    }
+
+        .splashLogo{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 40px;
+    }
+}
+
+.spaceForSign{
+    padding-top: 18px;
 }
 
 @media screen and (min-width: 800px){
