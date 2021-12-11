@@ -26,6 +26,31 @@ a{
     margin: 8px;
 }
 
+p1{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+p2{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+p2 a{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0;
+}
+
 .companyNameAndLogo{
     display: flex;
     align-items: center;
@@ -43,6 +68,90 @@ a{
     background-size: cover;
     background-color: white;
     display: flex;
+}
+
+.GameImg1{
+    width: 200px;
+    height: 280px;
+    background-image: url("./0_Story_cover_art.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.GameImgDetails1{
+    width: 400px;
+    height: 280px;
+    background-image: url("./697308-o-story-playstation-2-screenshot-angel-reminding-you-you-only.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.GameImgDetails2{
+    width: 400px;
+    height: 280px;
+    background-image: url("./714887-927204_20060223_003.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.GameImgDetails3{
+    width: 400px;
+    height: 280px;
+    background-image: url("./10000-bullets-03.png");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.GameImgDetails4{
+    width: 400px;
+    height: 280px;
+    background-image: url("./0 uTPP--z2hQtg-32G.gif");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.GameImg2{
+    width: 200px;
+    height: 280px;
+    background-image: url("./24_-_The_Game.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.GameImg3{
+    width: 200px;
+    height: 280px;
+    background-image: url("./10,000_Bullets_PAL_Cover.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.GameImg4{
+    width: 200px;
+    height: 280px;
+    background-image: url("./Armored_Core_2_cover_art.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .bar{
@@ -70,6 +179,66 @@ img{
     min-height: 150px;
     transition: 0.125s;
 }
+
+.GameDetails1{
+    position: fixed;
+    top: 120px;
+    right: -500px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgba(18,18,18,0.85);
+    min-height: 150px;
+    transition: 0.125s;
+}
+.GameDetails2{
+    position: fixed;
+    top: 120px;
+    right: -500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgba(18,18,18,0.85);
+    min-height: 150px;
+    transition: 0.125s;
+}
+
+.GameDetails3{
+    position: fixed;
+    top: 120px;
+    right: -500px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgba(18,18,18,0.85);
+    min-height: 150px;
+    transition: 0.125s;
+}
+
+.GameDetails4{
+    position: fixed;
+    top: 120px;
+    right: -500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgba(18,18,18,0.85);
+    min-height: 150px;
+    transition: 0.125s;
+}
+
 
 .navText{
     height: 60px;
@@ -118,17 +287,116 @@ p{
     font-size: 16px;
 }
 
-
 .topContent{
+     align-content: center;
+     justify-content: space-around;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+
+.aboutContent{
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+
 .smallContentBox{
     min-height: 300px;
+    min-width: 380px;
+    max-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+
+.largeContentBox1{
+    min-height: 300px;
+    min-width: 800px;
+    max-height: 400px;
+    background-image: url("./teamwork-g9c8b7152b_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.largeContentBox2{
+    min-height: 300px;
+    min-width: 800px;
+    max-height: 400px;
+    background-image: url("./v5vo241iamuz.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.productContentBox{
+    min-height: 300px;
+    min-width: 380px;
+    max-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.contactContentBox{
+    min-height: 300px;
+    min-width: 380px;
+    max-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 15px;
+}
+.SocialLinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Emails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.GameTitle{
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottomSpace{
+    min-height: 100px;
     min-width: 380px;
     max-height: 400px;
     display: flex;
@@ -140,6 +408,10 @@ p{
 .contentBoxtext{
     padding-left: 8px;
     width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .menuIcon{
